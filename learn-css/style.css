@@ -1,0 +1,96 @@
+/* universal selector */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    /* background-image: url("../assets/images/img1.jpg"); */
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+/* element selector */
+a{
+    color: red;
+    text-decoration: none;
+}
+
+/* class selector */
+.btn-primary{
+    color: white;
+    background-color: blueviolet;
+    border:none ;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* id selector */
+#btn-success{
+    color: white;
+    background-color: green;
+    border:none ;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+p.center{
+    text-align: center;
+    color: blue;
+    background-color: red;
+    /* opacity: 0.3; */
+}
+
+p,h1{
+   text-align: center;
+  color: red; 
+}
+
+h1{
+    font-size: 20px;
+}
+
+/* comment in css */
+
+.bad{
+    background-color: rgb(229, 143, 128);
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+.error{
+    color: red;
+    font-weight: bold;
+}
+
+.success{
+    background-color: rgb(0, 128, 0); /*RGB color for green*/
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+.message{
+    color: #ffffff; /* HEX color for white */
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.center{
+    margin-top: 10px;
+    /* border: 2px dashed green; */
+    padding: 20px;
+    /* border-style: solid;
+    border-width: 3px;
+    border-color: green; */
+    border-radius: 10px;
+    border: 2px dashed green;
+    border-right: 12px solid black;
+}
+
+
